@@ -1,0 +1,51 @@
+
+body{
+    background-color: #002339;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+
+    #spn-1{
+        color: #fff
+    }
+
+    #spn-2{
+        color: #019f55;
+    }
+
+}
+
+.input-group-append button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-group-append button i {
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #019f55;
+    border-color: #019f55;
+}
+
+.btn-primary:hover {
+    background-color: #017f45;
+    border-color: #017f45;
+}
+
+.bi-copy{
+    color: #019f55;
+    font-size: 1.2rem;
+}
+
+#message{
+    background-color: #019f55;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}

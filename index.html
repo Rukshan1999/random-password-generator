@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="icon" href="public/images/key.svg" type="image/svg">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <script type="module" src="bootstrap/js/index.esm.js"></script>
+    <!-- Icon Pack -->
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- Custom JS -->
+    <script defer src="/js/index.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1>
+                <span id="spn-1">Random</span>
+                <span id="spn-2">Password Generator</span>
+            </h1>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input id="passwordInput" type="text" class="form-control" readonly>
+                    <div id="copy-Elm" class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="bi bi-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <button id="btn-generate" class="btn btn-primary btn-block fw-bold">
+                    <i class="bi bi-key"></i>
+                    Generate Password
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
